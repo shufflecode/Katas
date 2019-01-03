@@ -1,0 +1,9 @@
+C:\Users\micha\Source\VsCode\Katas\katas\bin\Debug\netstandard2.0\katas.deps.json
+C:\Users\micha\Source\VsCode\Katas\katas\bin\Debug\netstandard2.0\katas.dll
+C:\Users\micha\Source\VsCode\Katas\katas\bin\Debug\netstandard2.0\katas.pdb
+C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.csprojAssemblyReference.cache
+C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.csproj.CoreCompileInputs.cache
+C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.AssemblyInfoInputs.cache
+C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.AssemblyInfo.cs
+C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.dll
+C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.pdb
