@@ -12,7 +12,9 @@ namespace Tests
             string actual = JohnMeeting.Meeting(s);
             Assert.AreEqual(expect, actual);
         }
+
         [Test]
+
         public static void test1()
         {
             testing("Alexis:Wahl;John:Bell;Victoria:Schwarz;Abba:Dorny;Grace:Meta;Ann:Arno;Madison:STAN;Alex:Cornwell;Lewis:Kern;Megan:Stan;Alex:Korn",
