@@ -1,5 +1,7 @@
 
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace katas
@@ -8,54 +10,78 @@ namespace katas
     {
         public static long NextSmaller(long n)
         {
-            var sum1 = QuerSumme(n);
-            var digits = new List<int>();
-
-            while (n % 10 >= 0)
+            var originalDigits = GetDigits(n);
+            try
             {
-                var number = n % 10;
+                //// Find first number where prev is greater
+                var x = FindFirst(originalDigits);
 
-                n = n - number;
+                //// Find first number which is greater than x
+                var y = FindSecond(originalDigits, x.number);
 
-                if (number == 0)
-                {
-                    number = n / 10;
-                    digits.Add((int)number);
-                }
-                else
-                {
-                    digits.Add((int)number);
-                }
+                originalDigits.RemoveAt(y.index);
+                originalDigits.Insert(x.index, y.number);
+
+                var right = originalDigits.GetRange(0, x.index);
+                var left = originalDigits.GetRange(x.index, originalDigits.Count - right.Count);
+
+                right.Sort();
+                var rightStr = String.Join("", right);
+                var leftStr = String.Join("", left);
+                var result = $"{leftStr}{rightStr}";
+
+                if (result.StartsWith("0"))
+                    return -1;
+
+                return long.Parse(result);
             }
-
-            long sum = 0;
-            digits.ForEach(d =>
+            catch (Exception e)
             {
-                sum += d;
-            });
-
-            while (n > 0)
-            {
-                n--;
-                var quer = QuerSumme(n);
-                if (sum1 == quer)
-                {
-                    return sum1;
-                }
+                return -1;
             }
-
-            return 0;
+            return -1;
         }
 
-        public static long QuerSumme(long input)
+        private static (long number, int index) FindSecond(List<long> originalDigits, long x)
         {
-            long prüfSumme = 0;
+            for (int i = 0; i < originalDigits.Count; i++)
+            {
+                long item = originalDigits[i];
+                if (item > x)
+                    return (item, i);
+            }
+            var first = originalDigits.First();
+            return (first, originalDigits.IndexOf(first));
+        }
+
+        private static (long number, int index) FindFirst(List<long> originalDigits)
+        {
+            long x = 0;
+            for (int i = 0; i < originalDigits.Count; i++)
+            {
+                long item = originalDigits[i];
+                var previndex = i - 1 < 0 ? i : i - 1;
+                long previous = originalDigits[previndex];
+                if (previous > item)
+                {
+                    x = item;
+                    return (item, i);
+                }
+            }
+            //If nothing found, the first was the smallest
+            var first = originalDigits.First();
+            return (first, 0);
+        }
+
+        private static List<long> GetDigits(long n)
+        {
+            var digits = new List<long>();
             do
             {
-                prüfSumme += input % 10;
-                input /= 10;
-            } while (input > 0);
-            return prüfSumme;
+                digits.Add(n % 10);
+                n = n / 10;
+            } while (n > 0);
+            return digits;
         }
 
     }
