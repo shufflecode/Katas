@@ -16,10 +16,8 @@ x64/
 x86/
 build/
 bld/
-katas/[Bb]in/
-katas/[Oo]bj/
-katas.Tests/[Bb]in/
-katas.Tests/[Oo]bj/
+[Bb]in/
+[Oo]bj/
 [Oo]ut/
 msbuild.log
 msbuild.err
