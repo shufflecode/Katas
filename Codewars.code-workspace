@@ -1,7 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "C:\\Users\\micha\\Source\\VsCode\\Katas"
+			"path": "Katas",
+		},
+		{
+			"path": "Katas.Tests",
 		}
 	],
 	"settings": {

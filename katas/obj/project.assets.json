@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\Source\\VsCode\\Katas\\katas\\katas.csproj",
+      "projectUniqueName": "c:\\Users\\micha\\Source\\VsCode\\Katas\\Katas\\katas.csproj",
       "projectName": "katas",
-      "projectPath": "C:\\Users\\micha\\Source\\VsCode\\Katas\\katas\\katas.csproj",
+      "projectPath": "c:\\Users\\micha\\Source\\VsCode\\Katas\\Katas\\katas.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\Source\\VsCode\\Katas\\katas\\obj\\",
+      "outputPath": "c:\\Users\\micha\\Source\\VsCode\\Katas\\Katas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

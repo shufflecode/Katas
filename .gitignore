@@ -26,7 +26,3 @@ msbuild.wrn
 # Visual Studio 2015
 .vs/
 
-katas\bin
-katas\obj
-katas.Tests\bin
-katas.Tests\obj

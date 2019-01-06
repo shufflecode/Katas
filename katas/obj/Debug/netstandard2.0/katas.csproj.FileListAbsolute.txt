@@ -7,3 +7,12 @@ C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.Assembly
 C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.AssemblyInfo.cs
 C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.dll
 C:\Users\micha\Source\VsCode\Katas\katas\obj\Debug\netstandard2.0\katas.pdb
+C:\Users\wt\source\Katas\katas\bin\Debug\netstandard2.0\katas.deps.json
+C:\Users\wt\source\Katas\katas\bin\Debug\netstandard2.0\katas.dll
+C:\Users\wt\source\Katas\katas\bin\Debug\netstandard2.0\katas.pdb
+C:\Users\wt\source\Katas\katas\obj\Debug\netstandard2.0\katas.csprojAssemblyReference.cache
+C:\Users\wt\source\Katas\katas\obj\Debug\netstandard2.0\katas.csproj.CoreCompileInputs.cache
+C:\Users\wt\source\Katas\katas\obj\Debug\netstandard2.0\katas.AssemblyInfoInputs.cache
+C:\Users\wt\source\Katas\katas\obj\Debug\netstandard2.0\katas.AssemblyInfo.cs
+C:\Users\wt\source\Katas\katas\obj\Debug\netstandard2.0\katas.dll
+C:\Users\wt\source\Katas\katas\obj\Debug\netstandard2.0\katas.pdb

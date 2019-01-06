@@ -5775,11 +5775,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\Source\\VsCode\\Katas\\katas.Tests\\katas.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\micha\\Source\\VsCode\\Katas\\Katas.Tests\\katas.Tests.csproj",
       "projectName": "katas.Tests",
-      "projectPath": "C:\\Users\\micha\\Source\\VsCode\\Katas\\katas.Tests\\katas.Tests.csproj",
+      "projectPath": "c:\\Users\\micha\\Source\\VsCode\\Katas\\Katas.Tests\\katas.Tests.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\Source\\VsCode\\Katas\\katas.Tests\\obj\\",
+      "outputPath": "c:\\Users\\micha\\Source\\VsCode\\Katas\\Katas.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5796,8 +5796,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\micha\\Source\\VsCode\\Katas\\katas\\katas.csproj": {
-              "projectPath": "C:\\Users\\micha\\Source\\VsCode\\Katas\\katas\\katas.csproj"
+            "c:\\Users\\micha\\Source\\VsCode\\Katas\\katas\\katas.csproj": {
+              "projectPath": "c:\\Users\\micha\\Source\\VsCode\\Katas\\katas\\katas.csproj"
             }
           }
         }
