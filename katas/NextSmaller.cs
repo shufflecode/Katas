@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 
 namespace katas
 {
-    public class NextSmallerKata
+    public class Kata
     {
         public static long NextSmaller(long n)
         {
@@ -20,8 +20,15 @@ namespace katas
                 if (!permutations.ContainsKey(numstring))
                     permutations.Add(numstring, number);
             }
+
+            if (!permutations.Any())
+                return -1;
+
             var sorted = permutations.OrderByDescending(p => p.Value);
-            var result = sorted.First(num => num.Value < n);
+            var result = sorted.FirstOrDefault(num => num.Value < n);
+
+            if (result.Key == null)
+                return -1;
 
             if (result.Key.StartsWith("0"))
                 return -1;
